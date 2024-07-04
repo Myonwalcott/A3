@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Quiz</title>
+  <link rel="stylesheet" href="a3.css">
+  <script src="a33.js"></script>
+</head>
+<body>
+  <div id="quiz-container">
+    <h2>Interactive Quiz</h2>
+    <form id="quiz-form">
+      <fieldset>
+        <legend>Question 1: Longest Anime Series?</legend>
+        <label><input type="radio" name="q1" value="Bleach"> Bleach</label><br>
+        <label><input type="radio" name="q1" value="Konosuba"> Konosuba</label><br>
+        <label><input type="radio" name="q1" value="One Piece"> One Piece</label><br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Question 2: Who is Stronger?</legend>
+        <label><input type="radio" name="q2" value="Shippuden Naruto"> Shippuden Naruto</label><br>
+        <label><input type="radio" name="q2" value="Tournament Power Goku"> Tournament of Power Goku</label><br>
+        <label><input type="radio" name="q2" value="Sakura"> Sakura</label><br>
+      </fieldset>
+      <br>
+      <fieldset>
+        <legend>Question 3: Who is the protagonist of Demon Slayer</legend>
+        <label><input type="radio" name="q3" value="Tanjuro"> Tanjuro</label><br>
+        <label><input type="radio" name="q3" value="Inosuke"> Inosuke</label><br>
+        <label><input type="radio" name="q3" value="Zenitsu"> Zenitsu</label><br>
+      </fieldset>
+      <button type="submit">Submit Answers</button>
+    </form>
+    <div id="results"></div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
